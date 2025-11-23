@@ -1,0 +1,37 @@
+
+
+
+:root{
+  --bs-body-font: 'Montserrat', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+body{
+  font-family: var(--bs-body-font);
+  scroll-behavior: smooth;
+}
+
+.hero{
+  min-height: 80vh;
+  background: linear-gradient(180deg, rgba(33,37,41,0.85), rgba(33,37,41,0.7)), url('img/p1.avif') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+}
+.hero h1{ letter-spacing: -1px; }
+
+.navbar-brand{ font-weight:700; letter-spacing:1px; }
+.navbar .nav-link{ color: rgba(255,255,255,0.85); }
+
+.icon{ font-size: 2rem; }
+
+.card{ border: none; }
+
+
+@media (max-width: 767.98px){
+  .hero{ min-height: 60vh; padding-top: 4rem; }
+}
+
+
+.text-muted{ color: #6c757d !important; }
+
+
+footer{ background: #111; }
+
